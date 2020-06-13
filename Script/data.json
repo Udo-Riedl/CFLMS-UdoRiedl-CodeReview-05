@@ -1,0 +1,34 @@
+const movies = [{
+
+    "name" : "A Star is born",
+    "image" : "img/asib.jpg",
+    "Genre" : "Genre: Music / Romantic",
+    "Length" : "Length: ca. 134 min."
+},{
+    "name" : "Halloween",
+    "image" : "img/halloween.jpg",
+    "Genre" : "Genre: Horror",
+    "Length" : "Length: ca. 104 min."
+},{
+    "name" : "First Man",
+    "image" : "img/first.jpg",
+    "Genre" : "Genre: Syfy",
+    "Length" : "Length: ca. 140 min."
+},{    
+    "name" : "Bad Times at the El Royale",
+    "image" : "img/elroyale.jpg",
+    "Genre" : "Genre: Mystery / Thriller",
+    "Length" : "Length: ca. 140 min."
+},{
+    "name" : "Mandy",
+    "image" : "img/mandy.jpg",
+    "Genre" : "Genre: Horror / Action",
+    "Length" : "Length: ca. 121 min."
+},{
+    "name" : "Crazy Ritch Asians",
+    "image" : "img/crazy.jpg",
+    "Genre" : "Genre: Romantic / Commedy",
+    "Length" : "Length: ca. 120 min."            
+}]
+
+    //YouTube helped a little bit.

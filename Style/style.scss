@@ -1,0 +1,118 @@
+            /*for the whole document*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+$primarycolor1: #000000;
+$primarycolor2: #454545;
+$primarycolor3: #1D2329;
+$primarycolor4: #181818;
+$primarycolor5: #32A23D;
+
+body {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    background-color: $primarycolor3;
+    
+
+}
+
+            /*head and nav section*/
+
+header {
+    width: 100%;
+    height: 225px;
+    background-color: $primarycolor1;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#head {
+    font-size: 110px;
+}
+
+#navbar {
+    width: 100%;
+    line-height: 75px;
+    background-color: $primarycolor2;
+    color: white;
+    display: flex;
+    margin-top: auto;
+}
+
+#navi {
+    margin-left: 50px;
+    font-size: 30px;
+}
+#movSort {
+    position: absolute;
+    margin-top: 225px;
+    margin-bottom: auto;
+    width: 100%;
+    line-height: 75px;
+    background-color: $primarycolor3;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+            /*main section*/
+
+#container {
+    width: 90%;
+    line-height: auto;
+    margin-top: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    background-color: $primarycolor3;
+    color: white;
+}
+
+            /*and the failor must also be here*/
+#mov {
+    font-size: 30px;
+}
+
+#dvd { /*item from JavaScript / JSON*/
+    background-color: $primarycolor4;
+    width: 40%;
+    height: 260px;
+    display: flex;
+    
+}
+
+#kino { /*item from JavaScript / JSON*/
+    height: 250px;
+    margin-top: 2.5px;
+    margin-right: 30px;
+    margin-bottom: 2.5px;
+    margin-left: 10px;
+
+}
+
+#describe { /*item from JavaScript / JSON*/
+    margin-top: 20px;
+}
+
+.info { /*item from JavaScript / JSON*/
+    margin-top: 20px;
+}
+
+            /*Bottom*/
+
+footer {
+    position: absolute;
+    color: white;
+    margin-top: auto;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+}
